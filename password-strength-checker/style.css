@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	transition: 0.3s;
+}
+body {
+	background-color: #7d29df;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+.input-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	max-width: 400px;
+	background-color: white;
+	height: 150px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 15px 0px;
+	gap: 10px;
+}
+.helper-text {
+	font-size: 0.8rem;
+	color: #7d29df;
+	margin-top: 5px;
+	align-self: flex-start;
+	margin-left: 40px;
+}
+.password-input {
+	width: 80%;
+	padding: 15px;
+	border-radius: 5px;
+	border: 3px solid gray;
+	outline: none;
+}
+
+.input-container.strong .password-input {
+	border-color: #48b43f;
+}
+.input-container.strong .helper-text {
+	color: #48b43f;
+}
+.input-container.medium .password-input {
+	border-color: #cb8506;
+}
+.input-container.medium .helper-text {
+	color: #cb8506;
+}
+.input-container.weak .password-input {
+	border-color: #ff0000;
+}
+.input-container.weak .helper-text {
+	color: red;
+}
