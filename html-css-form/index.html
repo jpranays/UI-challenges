@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML CSS Form</title>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="form-container">
+			<div class="form">
+				<div class="email-container input-container">
+					<label for="">Email</label> <input type="email" class="email input" />
+				</div>
+				<div class="password-container input-container">
+					<label for="">Password</label>
+					<input type="password" class="password input" />
+				</div>
+				<div class="bar-container">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="error-messages">
+					<p><span class="status"></span> Must be 6 characters long</p>
+					<p>
+						<span class="status"></span> Must contain at least one Capital
+						letter
+					</p>
+
+					<p><span class="status"></span> Must contain at least one Number</p>
+
+					<p>
+						<span class="status"></span> Must contain at least one Special
+						letter
+					</p>
+				</div>
+				<button class="signup">Sign Up</button>
+			</div>
+		</div>
+	</body>
+</html>
