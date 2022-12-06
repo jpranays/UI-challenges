@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #1e1e1e;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wireframe-container {
+	border: 5px #018689 solid;
+	height: 500px;
+	width: 260px;
+	background-color: #018689;
+	padding: 15px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	border-radius: 5px;
+}
+.rounded-rectangle {
+	min-height: 30%;
+	border: 5px black solid;
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.circle {
+		background-color: white;
+		width: 80px;
+		height: 80px;
+		border: 5px black solid;
+		border-radius: 50%;
+	}
+}
+.rectangle {
+	max-height: 70%;
+	min-height: 70%;
+	border: 5px black solid;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	border-radius: 5px;
+	.message-container {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		padding: 0 5px;
+		overflow-y: scroll;
+		&::-webkit-scrollbar {
+			width: 3px;
+		}
+		&::-webkit-scrollbar-thumb {
+			background-color: red;
+		}
+		.chats {
+			display: flex;
+			flex-direction: column;
+			gap: 4px;
+			margin-top: auto;
+			padding: 4px;
+			p {
+				height: 100%;
+				word-break: break-all;
+				padding: 5px;
+				border-radius: 5px;
+				font-weight: 500;
+				background: linear-gradient(90deg, #018689, #00d4ff);
+			}
+		}
+	}
+	.message-sender {
+		display: flex;
+		margin-top: auto;
+		width: 100%;
+		#message {
+			outline: none;
+			border-right: 2.5px black solid;
+			border-top: 5px black solid;
+			border-left: none;
+			border-bottom: none;
+			padding: 5px;
+			width: 80%;
+			&::placeholder {
+				color: black;
+				font-family: "Poppins", sans-serif;
+				font-size: 11px;
+			}
+		}
+		#send-button {
+			width: 20%;
+			outline: none;
+			background: white;
+			border-top: 5px black solid;
+			cursor: pointer;
+			width: 20%;
+			border-left: 2.5px black solid;
+			border-bottom: none;
+			border-right: none;
+			font-weight: bold;
+		}
+	}
+}
+.notification {
+	position: fixed;
+	right: 5px;
+	top: 0;
+	color: #fff;
+	&.active {
+		animation: blink 1s linear infinite;
+	}
+}
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+		color: red;
+	}
+	100% {
+		opacity: 0;
+	}
+}

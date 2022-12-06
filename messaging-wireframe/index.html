@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Messaging Wireframe</title>
+		<link rel="stylesheet" href="./public/style.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="notification">
+				<h3>
+					You Have <span id="unseen-message-count"></span> unread messages
+				</h3>
+			</div>
+			<div class="wireframe-container">
+				<div class="rounded-rectangle">
+					<div class="circle"></div>
+				</div>
+				<div class="rectangle">
+					<div class="message-container">
+						<div class="chats">
+							<p>Hi</p>
+							<p>How are you?</p>
+							<p>fine</p>
+						</div>
+					</div>
+					<form class="message-sender">
+						<input
+							type="text"
+							autocomplete="off"
+							placeholder="Type message..."
+							id="message"
+						/>
+						<button id="send-button" type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
