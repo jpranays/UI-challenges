@@ -14,4 +14,4 @@
 | [Clock](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/clock)                                         | [Live Demo](https://jpranays-clock.netlify.app/)                     |
 | [Toast-notification](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/toast-notification)               | [Live Demo](https://jpranays-toast-notification.netlify.app/)        |
 | [CSS Image Grid](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/css-image-grid)                       | [Live Demo](https://jpranays-css-image-grid.netlify.app/)            |
-| [CSS Selector] (https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/css%20selector)                        | [Live Demo](https://jpranays-css-selector.netlify.app/)              |
+| [CSS Selector](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/css%20selector)                         | [Live Demo](https://jpranays-css-selector.netlify.app/)              |
