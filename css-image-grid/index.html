@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS Image Grid</title>
+		<link rel="stylesheet" href="./public/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=1" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=2" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=3" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=4" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=5" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=6" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=7" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=8" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=9" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=10" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=11" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+			<div class="img-container">
+				<img src="https://picsum.photos/500?random=12" />
+				<div class="text-wrapper">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+					praesentium illo asperiores facere eligendi nobis eveniet quisquam
+					corporis molestias nesciunt!
+				</div>
+			</div>
+		</div>
+		<script>
+			let textOverlays = document.querySelectorAll(".text-wrapper");
+			let classArrays = [
+				"opacity",
+				"transformXplus",
+				"transformXminus",
+				"transformYplus",
+				"transformYminus",
+			];
+			textOverlays.forEach((item) => {
+				item.classList.add(
+					classArrays[Math.floor(Math.random() * classArrays.length)]
+				);
+			});
+		</script>
+	</body>
+</html>

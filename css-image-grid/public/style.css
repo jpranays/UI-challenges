@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "monospace";
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.img-container {
+  width: 100%;
+  border-radius: 15px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.img-container img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  background-color: red;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-wrapper {
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-wrapper.opacity {
+  opacity: 0;
+}
+
+.text-wrapper.transformXplus {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.text-wrapper.transformXminus {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.text-wrapper.transformYminus {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.text-wrapper.transformYplus {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.img-container:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.img-container:hover .text-wrapper.opacity {
+  opacity: 1;
+}
+
+.img-container:hover .text-wrapper.transformXplus {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.img-container:hover .text-wrapper.transformXminus {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.img-container:hover .text-wrapper.transformYplus {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.img-container:hover .text-wrapper.transformYminus {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+/*# sourceMappingURL=style.css.map */
