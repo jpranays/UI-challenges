@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Youtube Video Player</title>
+		<link rel="stylesheet" href="./public/style.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="video-container">
+				<video src="./video.mp4" id="video-player"></video>
+				<div class="playback-btns">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						class="bi bi-dash-circle playback-btn"
+						viewBox="0 0 16 16"
+						id="backward-btn"
+					>
+						<path
+							d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+						/>
+						<path
+							d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"
+						/>
+					</svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						class="bi bi-plus playback-btn"
+						viewBox="0 0 16 16"
+						id="forward-btn"
+					>
+						<path
+							d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+						/>
+						<path
+							d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+						/>
+					</svg>
+				</div>
+				<div class="btn-container">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="red"
+						class="bi bi-pause"
+						viewBox="0 0 16 16"
+						id="pause-btn"
+						class="btn"
+					>
+						<path
+							d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"
+						/>
+					</svg>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="bi bi-play-fill"
+						viewBox="0 0 16 16"
+						id="play-btn"
+						class="btn"
+					>
+						<path
+							d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+						/>
+					</svg>
+				</div>
+				<div class="widget-container">
+					<div class="progress-bar-container">
+						<div class="progress-bar"></div>
+					</div>
+					<div class="time-container">
+						<span class="current-time">00:00</span>
+						<span>/</span>
+						<span class="duration">00:00</span>
+					</div>
+					<div class="full-screen-icon">
+						<svg
+							height="100%"
+							version="1.1"
+							viewBox="0 0 36 36"
+							width="100%"
+							class="full-screen-icon-svg"
+						>
+							<g class="ytp-fullscreen-button-corner-0">
+								<use class="ytp-svg-shadow" xlink:href="#ytp-id-7"></use>
+								<path
+									class="ytp-svg-fill"
+									d="m 10,16 2,0 0,-4 4,0 0,-2 L 10,10 l 0,6 0,0 z"
+									id="ytp-id-7"
+								></path>
+							</g>
+							<g class="ytp-fullscreen-button-corner-1">
+								<use class="ytp-svg-shadow" xlink:href="#ytp-id-8"></use>
+								<path
+									class="ytp-svg-fill"
+									d="m 20,10 0,2 4,0 0,4 2,0 L 26,10 l -6,0 0,0 z"
+									id="ytp-id-8"
+								></path>
+							</g>
+							<g class="ytp-fullscreen-button-corner-2">
+								<use class="ytp-svg-shadow" xlink:href="#ytp-id-9"></use>
+								<path
+									class="ytp-svg-fill"
+									d="m 24,24 -4,0 0,2 L 26,26 l 0,-6 -2,0 0,4 0,0 z"
+									id="ytp-id-9"
+								></path>
+							</g>
+							<g class="ytp-fullscreen-button-corner-3">
+								<use class="ytp-svg-shadow" xlink:href="#ytp-id-10"></use>
+								<path
+									class="ytp-svg-fill"
+									d="M 12,20 10,20 10,26 l 6,0 0,-2 -4,0 0,-4 0,0 z"
+									id="ytp-id-10"
+								></path>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class="current-time-shower"></div>
+			</div>
+		</div>
+	</body>
+</html>
