@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	transition: all 0.2s ease;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #f2f7ff;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: #f2f7ff;
+	.clock-container {
+		background-color: white;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+		padding: 60px 100px;
+		border-radius: 10px;
+		position: relative;
+		.dark-mode {
+			position: absolute;
+			top: 5%;
+			right: 2%;
+			svg {
+				opacity: 0;
+				cursor: pointer;
+				pointer-events: none;
+				visibility: hidden;
+				position: absolute;
+				transition: none;
+			}
+			svg.active {
+				right: 0px;
+				opacity: 1;
+				visibility: visible;
+				pointer-events: auto;
+				fill: black;
+			}
+		}
+	}
+	.time-container {
+		display: flex;
+		align-items: center;
+		user-select: none;
+		gap: 15px;
+		.time {
+			width: 150px;
+			height: 150px;
+			background-color: #f2f7ff;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border: 1px greenyellow solid;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px gray;
+			padding: 20px;
+			flex: 1;
+			align-items: center;
+			.time-text {
+				font-size: 4rem;
+				font-weight: 900;
+			}
+			.time-label {
+				font-weight: 00;
+			}
+			& + span {
+				font-size: 2rem;
+			}
+		}
+		position: relative;
+		.time-period {
+			position: absolute;
+			font-size: 1.5rem;
+			font-weight: 600;
+			top: -15%;
+			right: -10%;
+		}
+	}
+}
+// darkmode
+
+body.dark-mode {
+	color: #fff;
+	background-color: #242a2e;
+	.container {
+		background-color: #242a2e;
+		.clock-container {
+			background-color: #333841;
+			box-shadow: 0px 0px 10px gold;
+			.dark-mode svg {
+				fill: #fff;
+			}
+			.time-container {
+				.time {
+					background-color: #24292f;
+					color: white;
+					box-shadow: 0px 0px 8px gold;
+				}
+				.time-label {
+					color: yellow;
+				}
+				.time-text {
+					font-size: 4rem;
+					font-weight: 900;
+					-webkit-text-stroke-color: green;
+					-webkit-text-stroke-width: 1px;
+					-webkit-text-fill-color: transparent;
+				}
+				.time-period {
+					color: gold;
+				}
+			}
+		}
+	}
+}

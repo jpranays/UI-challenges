@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f7ff;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f2f7ff;
+}
+
+.container .clock-container {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 60px 100px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container .clock-container .dark-mode {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
+
+.container .clock-container .dark-mode svg {
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.container .clock-container .dark-mode svg.active {
+  right: 0px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  fill: black;
+}
+
+.container .time-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  gap: 15px;
+  position: relative;
+}
+
+.container .time-container .time {
+  width: 150px;
+  height: 150px;
+  background-color: #f2f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px greenyellow solid;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px gray;
+          box-shadow: 0px 0px 10px gray;
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .time-container .time .time-text {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.container .time-container .time .time-label {
+  font-weight: 00;
+}
+
+.container .time-container .time + span {
+  font-size: 2rem;
+}
+
+.container .time-container .time-period {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 600;
+  top: -15%;
+  right: -10%;
+}
+
+body.dark-mode {
+  color: #fff;
+  background-color: #242a2e;
+}
+
+body.dark-mode .container {
+  background-color: #242a2e;
+}
+
+body.dark-mode .container .clock-container {
+  background-color: #333841;
+  -webkit-box-shadow: 0px 0px 10px gold;
+          box-shadow: 0px 0px 10px gold;
+}
+
+body.dark-mode .container .clock-container .dark-mode svg {
+  fill: #fff;
+}
+
+body.dark-mode .container .clock-container .time-container .time {
+  background-color: #24292f;
+  color: white;
+  -webkit-box-shadow: 0px 0px 8px gold;
+          box-shadow: 0px 0px 8px gold;
+}
+
+body.dark-mode .container .clock-container .time-container .time-label {
+  color: yellow;
+}
+
+body.dark-mode .container .clock-container .time-container .time-text {
+  font-size: 4rem;
+  font-weight: 900;
+  -webkit-text-stroke-color: green;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+}
+
+body.dark-mode .container .clock-container .time-container .time-period {
+  color: gold;
+}
+/*# sourceMappingURL=style.css.map */
