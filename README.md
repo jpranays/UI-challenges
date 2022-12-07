@@ -18,3 +18,4 @@
 | [Popup Modal](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/popup%20modal%20box)                     | [Live Demo](https://jpranays-popup-modal.netlify.app/)               |
 | [Messagging Wireframe](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/messaging-wireframe)            | [Live Demo](https://jpranays-messaging-wireframe.netlify.app/)       |
 | [Tab Intersection Observer](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/tab-intersection-observer) | [Live Demo](https://jpranays-tab-intersection-observer.netlify.app/) |
+| [Carousel](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/carousel)                                   | [Live Demo](https://jpranays-carousel.netlify.app/)                  |

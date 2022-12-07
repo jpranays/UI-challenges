@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "poppins", sans-serif;
+	/* dark mode */
+	background-color: #1a1a1a;
+	overflow: hidden;
+}
+.container {
+	width: 300px;
+	height: 500px;
+	transition: all 0.3s;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.container.fadeout {
+	animation: fadeout 0.5s forwards;
+}
+@keyframes fadeout {
+	from {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	to {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+}
+
+.container.fadein {
+	animation: slidefadein 0.3s forwards;
+}
+.container.fadeinleft {
+	animation: slidefadeinleft 0.3s forwards;
+}
+@keyframes slidefadein {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+@keyframes slidefadeinleft {
+	from {
+		transform: translateX(-100%);
+		/* opacity: 0; */
+	}
+	to {
+		transform: translateX(0);
+		/* opacity: 1; */
+	}
+}
+.buttons {
+	margin-top: auto;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: 16px;
+}
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+	background-color: aliceblue;
+}
+.previous {
+	width: 80px;
+	height: 30px;
+	border-radius: 15px;
+	/* background-color: orange; */
+	cursor: pointer;
+}
+.next {
+	width: 80px;
+	height: 30px;
+	border-radius: 15px;
+	/* background-color: red; */
+	cursor: pointer;
+}
