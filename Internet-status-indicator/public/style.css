@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  --color: green;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .large-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px white solid;
+  animation: myanim 2s infinite;
+  animation-delay: 1.5s;
+}
+.container .medium-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px white solid;
+  animation: myanim 2s infinite;
+  animation-delay: 1s;
+}
+.container .small-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  border: 10px white solid;
+  animation: myanim 2s infinite;
+  animation-delay: 0.5s;
+}
+.container .dot-circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--color);
+}
+@keyframes myanim {
+  20% {
+    border-left: 10px solid var(--color);
+    border-right: 10px solid var(--color);
+  }
+  100% {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+}/*# sourceMappingURL=style.css.map */
