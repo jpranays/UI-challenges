@@ -19,4 +19,4 @@
 | [Messagging Wireframe](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/messaging-wireframe)            | [Live Demo](https://jpranays-messaging-wireframe.netlify.app/)       |
 | [Tab Intersection Observer](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/tab-intersection-observer) | [Live Demo](https://jpranays-tab-intersection-observer.netlify.app/) |
 | [Carousel](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/Carousel)                                   | [Live Demo](https://jpranays-carousel.netlify.app/)                  |
-| [Internet Status Indicator](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/internet-status-indicator) | [Live Demo](https://jpranays-internet-status-indicator.netlify.app/) |
+| [Internet Status Indicator](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/Internet-status-indicator) | [Live Demo](https://jpranays-internet-status-indicator.netlify.app/) |
