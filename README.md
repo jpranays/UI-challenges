@@ -14,7 +14,7 @@
 | [Clock](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/clock)                                         | [Live Demo](https://jpranays-clock.netlify.app/)                     |
 | [Toast-notification](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/toast-notification)               | [Live Demo](https://jpranays-toast-notification.netlify.app/)        |
 | [CSS Image Grid](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/css-image-grid)                       | [Live Demo](https://jpranays-css-image-grid.netlify.app/)            |
-| [CSS Selector](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/css%20selector)                         | [Live Demo](https://jpranays-css-selector.netlify.app/)              |
+| [CSS Selector](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/css-selector)                         | [Live Demo](https://jpranays-css-selector.netlify.app/)              |
 | [Popup Modal](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/popup%20modal%20box)                     | [Live Demo](https://jpranays-popup-modal.netlify.app/)               |
 | [Messagging Wireframe](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/messaging-wireframe)            | [Live Demo](https://jpranays-messaging-wireframe.netlify.app/)       |
 | [Tab Intersection Observer](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/tab-intersection-observer) | [Live Demo](https://jpranays-tab-intersection-observer.netlify.app/) |
