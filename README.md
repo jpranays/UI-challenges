@@ -21,3 +21,4 @@
 | [Carousel](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/Carousel)                                   | [Live Demo](https://jpranays-carousel.netlify.app/)                  |
 | [Internet Status Indicator](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/Internet-status-indicator) | [Live Demo](https://jpranays-internet-status-indicator.netlify.app/) |
 | [Image Carousel](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/image-carousel) | [Live Demo](https://jpranays-image-carousel.netlify.app/) |
+| [Tic Tac Toe](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/tic-tac-toe) | [Live Demo](https://jpranays-tic-tac-toe.netlify.app/) |
