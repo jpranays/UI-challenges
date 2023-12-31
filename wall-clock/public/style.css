@@ -23,6 +23,18 @@ body {
   border-radius: 50%;
   position: relative;
 }
+.container .clock::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
 .container .clock span.hour {
   position: absolute;
   display: flex;
@@ -54,21 +66,34 @@ body {
 .container .clock span.second-hand {
   position: absolute;
   height: 45%;
-  width: 10px;
   background-color: black;
   transform: translate(-50%, -100%);
   top: 50%;
   left: 50%;
-  border-radius: 10px;
-  animation: rotate 3600s linear infinite;
-  animation-fill-mode: forwards;
+  border-radius: 5px;
+  z-index: 100;
   transform-origin: bottom;
 }
-@keyframes rotate {
-  from {
-    transform: translate(-50%, -100%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -100%) rotate(360deg);
-  }
+.container .clock span.hour-hand {
+  width: 10px;
+}
+.container .clock span.hour-hand::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translate(0%, -100%);
+  width: 10px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 1000 !important;
+}
+.container .clock span.minute-hand {
+  width: 5px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+.container .clock span.second-hand {
+  width: 2px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=style.css.map */
