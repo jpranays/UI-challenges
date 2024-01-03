@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+}
+.container {
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+	gap: 10px;
+}
+.accordion {
+	display: flex;
+	max-height: 58px;
+	flex-direction: column;
+	overflow: hidden;
+	gap: 10px;
+	transition: all linear 0.1s;
+	.accordion-header {
+		font-size: 28px;
+		background-color: orange;
+		border-radius: 8px;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.accordion-body {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		gap: 10px;
+		border-radius: 8px;
+		background-color: sandybrown;
+	}
+}
