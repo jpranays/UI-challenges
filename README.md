@@ -23,3 +23,4 @@
 | [Image Carousel](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/image-carousel) | [Live Demo](https://jpranays-image-carousel.netlify.app/) |
 | [Tic Tac Toe](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/tic-tac-toe) | [Live Demo](https://jpranays-tic-tac-toe.netlify.app/) |
 | [Wall clock](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/wall-clock) | [Live Demo](https://jpranays-wall-clock.netlify.app/) |
+| [Accordion](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/accordion) | [Live Demo](https://jpranays-accordion.netlify.app/) |
