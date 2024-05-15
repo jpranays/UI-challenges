@@ -18,4 +18,9 @@ function setClockHands() {
 	hourHand.style.transform = `translate(-50%, -100%) rotate(${hourDeg}deg)`;
 	minuteHand.style.transform = `translate(-50%, -100%) rotate(${minuteDeg}deg)`;
 	secondHand.style.transform = `translate(-50%, -100%) rotate(${secondDeg}deg)`;
+	setTimeout(() => {
+		[hourHand, minuteHand, secondHand].forEach((hand) => {
+			hand.style.transition = "none";
+		});
+	}, 300);
 }

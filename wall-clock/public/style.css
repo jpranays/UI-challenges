@@ -23,6 +23,9 @@ body {
   border-radius: 50%;
   position: relative;
 }
+.container .clock span {
+  transition: all 0.3s linear;
+}
 .container .clock::after {
   content: "";
   position: absolute;
