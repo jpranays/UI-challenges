@@ -1,0 +1,24 @@
+.toaster-list-container {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 10px;
+    gap: 10px;
+}
+.toaster {
+	z-index: 9999;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 300px;
+	display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+	align-items: center;
+}
+.toaster button{
+    margin-left: auto;
+}
