@@ -25,3 +25,4 @@
 | [Wall clock](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/wall-clock) | [Live Demo](https://jpranays-wall-clock.netlify.app/) |
 | [Accordion](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/accordion) | [Live Demo](https://jpranays-accordion.netlify.app/) |
 | [Multi Select](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/multi-select) | [Live Demo](https://jpranays-multi-select.netlify.app/) |
+| [React Toaster](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/react-toaster) | [Live Demo](https://jpranays-react-toaster.netlify.app/) |
