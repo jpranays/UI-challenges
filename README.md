@@ -27,4 +27,10 @@
 | [Multi Select](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/multi-select) | [Live Demo](https://jpranays-multi-select.netlify.app/) |
 | [React Toaster](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/react-toaster) | [Live Demo](https://jpranays-react-toaster.netlify.app/) |
 | [Animated Circles](https://github.com/jpranays/HTML_CSS_JS_Projects/tree/master/animated-circles) | [Live Demo](https://jpranays-animated-circles.netlify.app/) |
+| [React Recipe App](https://github.com/jpranays/react-recipe-web-app) | [Live Demo](https://jpranays-react-recipe-web-app.netlify.app/) |
+| [React Navigation Bar](https://github.com/jpranays/REACT_Navigation_bar_animation) | [Live Demo](https://jpranays-react-navbar-animation.netlify.app/) |
+| [React Pokemon App](https://github.com/jpranays/REACT_pokemon_app) | [Live Demo](https://jpranays-react-pokemon-app.netlify.app/) |
+| [React Infinite Scroll App](https://github.com/jpranays/React-Infinite-Scroll-App) | [Live Demo](https://jpranays-react-infinite-scroll.netlify.app/) |
+| [React To Do App](https://github.com/jpranays/React-TO-DO-App) | [Live Demo](https://jpranays-react-todo-app.netlify.app/) |
+| [React Recipe App-2](https://github.com/jpranays/React-Recipe-App) | [Live Demo](https://jpranays-recipe-app.netlify.app/) |
 
