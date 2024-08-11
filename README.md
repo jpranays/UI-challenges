@@ -21,6 +21,7 @@
 | [Carousel](https://github.com/jpranays/UI-challenges/tree/master/Carousel)                                   | [Live Demo](https://jpranays-carousel.netlify.app/)                  |
 | [Internet Status Indicator](https://github.com/jpranays/UI-challenges/tree/master/Internet-status-indicator) | [Live Demo](https://jpranays-internet-status-indicator.netlify.app/) |
 | [Image Carousel](https://github.com/jpranays/UI-challenges/tree/master/image-carousel) | [Live Demo](https://jpranays-image-carousel.netlify.app/) |
+| [Image Carousel-2](https://github.com/jpranays/UI-challenges/tree/master/Image-carousel-2) | [Live Demo](https://jpranays-image-carousel-2.netlify.app) |
 | [Tic Tac Toe](https://github.com/jpranays/UI-challenges/tree/master/tic-tac-toe) | [Live Demo](https://jpranays-tic-tac-toe.netlify.app/) |
 | [Wall clock](https://github.com/jpranays/UI-challenges/tree/master/wall-clock) | [Live Demo](https://jpranays-wall-clock.netlify.app/) |
 | [Accordion](https://github.com/jpranays/UI-challenges/tree/master/accordion) | [Live Demo](https://jpranays-accordion.netlify.app/) |
