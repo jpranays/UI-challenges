@@ -34,5 +34,5 @@
 | [React Infinite Scroll App](https://github.com/jpranays/React-Infinite-Scroll-App) | [Live Demo](https://jpranays-react-infinite-scroll.netlify.app/) |
 | [React To Do App](https://github.com/jpranays/React-TO-DO-App) | [Live Demo](https://jpranays-react-todo-app.netlify.app/) |
 | [React Recipe App-2](https://github.com/jpranays/React-Recipe-App) | [Live Demo](https://jpranays-recipe-app.netlify.app/) |
-| [React Traffic Signal Simulator](https://github.com/jpranays/traffic-signal-simulator) | [Live Demo](https://jpranays-traffic-signal-simulator.netlify.app/) |
+| [React Traffic Signal Simulator](https://github.com/jpranays/UI-challenges/tree/master/traffic-signal-simulator) | [Live Demo](https://jpranays-traffic-signal-simulator.netlify.app/) |
 
