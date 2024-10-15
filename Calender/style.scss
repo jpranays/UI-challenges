@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+html,
+body {
+	height: 100%;
+	border: 1px solid #000;
+}
+body {
+	font-family: "Poppins", sans-serif;
+}
+.calender-container {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	padding: 10px;
+	flex-direction: column;
+	align-items: center;
+	.header {
+		width: 100%;
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		height: max-content;
+		justify-content: center;
+		.btn {
+			min-width: 100px;
+			padding: 10px 10px;
+			border: none;
+			background-color: #000;
+			color: #fff;
+			cursor: pointer;
+			border-radius: 5px;
+			font-size: 1rem;
+			&:hover {
+				background-color: #333;
+			}
+		}
+		.current-date {
+			flex: 1;
+			text-align: center;
+			font-size: 1.5rem;
+		}
+	}
+	.dates-container {
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+		grid-template-rows: repeat(7, 1fr);
+		gap: 10px;
+		margin-top: 10px;
+		width: 100%;
+		padding: 8px 10px;
+		.date {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			border: 1px solid #000;
+			border-radius: 5px;
+			&.inactive {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+	}
+	.weeks-container {
+		display: flex;
+		margin-top: 10px;
+		border: 1px solid #000;
+		width: 100%;
+		.day {
+			display: flex;
+			flex: 1;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			width: 100%;
+			font-weight: bold;
+			&:not(:last-child) {
+				border-right: 1px solid #000;
+			}
+		}
+	}
+}
