@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+html,
+body {
+  height: 100%;
+  border: 1px solid #000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.calender-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.calender-container .header {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: -moz-max-content;
+  height: max-content;
+  justify-content: center;
+}
+.calender-container .header .btn {
+  min-width: 100px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.calender-container .header .btn:hover {
+  background-color: #333;
+}
+.calender-container .header .current-date {
+  flex: 1;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.calender-container .dates-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px 10px;
+}
+.calender-container .dates-container .date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.calender-container .dates-container .date.inactive {
+  opacity: 0;
+  visibility: hidden;
+}
+.calender-container .weeks-container {
+  display: flex;
+  margin-top: 10px;
+  border: 1px solid #000;
+  width: 100%;
+}
+.calender-container .weeks-container .day {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+.calender-container .weeks-container .day:not(:last-child) {
+  border-right: 1px solid #000;
+}/*# sourceMappingURL=style.css.map */
