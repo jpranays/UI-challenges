@@ -36,5 +36,5 @@
 | [React Recipe App-2](https://github.com/jpranays/React-Recipe-App) | [Live Demo](https://jpranays-recipe-app.netlify.app/) |
 | [React Traffic Signal Simulator](https://github.com/jpranays/UI-challenges/tree/master/traffic-signal-simulator) | [Live Demo](https://jpranays-traffic-signal-simulator.netlify.app/) |
 | [Calender](https://github.com/jpranays/UI-challenges/tree/master/Calender) | [Live Demo](https://jpranays-calender.netlify.app/) |
-| [Avatar-Carousel-Animation](https://github.com/jpranays/UI-challenges/tree/master/avatar-carousel-animation) | [Live Demo](https://jpranays-Avatar-Carousel-Animation.netlify.app/) |
+| [Avatar-Carousel-Animation](https://github.com/jpranays/UI-challenges/tree/master/avatar-corousel-animation) | [Live Demo](https://jpranays-Avatar-Carousel-Animation.netlify.app/) |
 
