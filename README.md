@@ -1,7 +1,5 @@
 # UI Challenges     
  
-#### This is the main repository for all of the projects in the course.
-
 | Project                                                                                                             | Live Demo Link                                                       |
 | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [Typing Animation](https://github.com/jpranays/UI-challenges/tree/master/typing-animation)                   | [Live Demo](https://jpranays-typing-animation.netlify.app/)          |
