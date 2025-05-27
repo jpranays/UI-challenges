@@ -1,5 +1,5 @@
-# UI Challenges      
-  
+## UI development exercises using HTML, CSS, JavaScript, and React.
+------------------------------------------------------------------
 | Project                                                                                                             | Live Demo Link                                                       |
 | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [Typing Animation](https://github.com/jpranays/UI-challenges/tree/master/typing-animation)                   | [Live Demo](https://jpranays-typing-animation.netlify.app/)          |
