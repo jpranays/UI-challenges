@@ -35,4 +35,5 @@
 | [React Traffic Signal Simulator](https://github.com/jpranays/UI-challenges/tree/master/traffic-signal-simulator) | [Live Demo](https://jpranays-traffic-signal-simulator.netlify.app/) |
 | [Calender](https://github.com/jpranays/UI-challenges/tree/master/Calender) | [Live Demo](https://jpranays-calender.netlify.app/) |
 | [Avatar-Carousel-Animation](https://github.com/jpranays/UI-challenges/tree/master/avatar-corousel-animation) | [Live Demo](https://jpranays-Avatar-Carousel-Animation.netlify.app/) |
+| [Data-table-pagination](https://github.com/jpranays/UI-challenges/tree/master/Data-table-pagination) | [Live Demo](https://jpranays-Data-table-pagination.netlify.app/) |
 
