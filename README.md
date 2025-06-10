@@ -36,4 +36,5 @@
 | [Calender](https://github.com/jpranays/UI-challenges/tree/master/Calender) | [Live Demo](https://jpranays-calender.netlify.app/) |
 | [Avatar-Carousel-Animation](https://github.com/jpranays/UI-challenges/tree/master/avatar-corousel-animation) | [Live Demo](https://jpranays-Avatar-Carousel-Animation.netlify.app/) |
 | [Data-table-pagination](https://github.com/jpranays/UI-challenges/tree/master/Data-table-pagination) | [Live Demo](https://jpranays-Data-table-pagination.netlify.app/) |
+| [React-OTP-Input](https://github.com/jpranays/UI-challenges/tree/master/react-otp-input) | [Live Demo](https://jpranays-react-otp-input.netlify.app/) |
 
