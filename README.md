@@ -1,4 +1,4 @@
-| Project                                                                                                             | Live Demo Link                                                       |
+| Project                                                                                                             | Live Demo Link                                                       | 
 | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [Typing Animation](https://github.com/jpranays/UI-challenges/tree/master/typing-animation)                   | [Live Demo](https://jpranays-typing-animation.netlify.app/)          |
 | [Cards Slider](https://github.com/jpranays/UI-challenges/tree/master/cards-slider)                           | [Live Demo](https://jpranays-cards-slider.netlify.app/)              |
