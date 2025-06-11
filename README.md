@@ -32,8 +32,8 @@
 | [React Recipe App-2](https://github.com/jpranays/React-Recipe-App) | [Live Demo](https://jpranays-recipe-app.netlify.app/) |
 | [React Traffic Signal Simulator](https://github.com/jpranays/UI-challenges/tree/master/traffic-signal-simulator) | [Live Demo](https://jpranays-traffic-signal-simulator.netlify.app/) |
 | [Calender](https://github.com/jpranays/UI-challenges/tree/master/Calender) | [Live Demo](https://jpranays-calender.netlify.app/) |
-| [Avatar-Carousel-Animation](https://github.com/jpranays/UI-challenges/tree/master/avatar-corousel-animation) | [Live Demo](https://jpranays-Avatar-Carousel-Animation.netlify.app/) |
-| [Data-table-pagination](https://github.com/jpranays/UI-challenges/tree/master/Data-table-pagination) | [Live Demo](https://jpranays-Data-table-pagination.netlify.app/) |
-| [React-OTP-Input](https://github.com/jpranays/UI-challenges/tree/master/react-otp-input) | [Live Demo](https://jpranays-react-otp-input.netlify.app/) |
-| [React-nested-comments](https://github.com/jpranays/UI-challenges/tree/master/react-nested-comments) | [Live Demo](https://jpranays-react-nested-comments.netlify.app/) |
+| [Avatar Carousel Animation](https://github.com/jpranays/UI-challenges/tree/master/avatar-corousel-animation) | [Live Demo](https://jpranays-Avatar-Carousel-Animation.netlify.app/) |
+| [Data Table Pagination](https://github.com/jpranays/UI-challenges/tree/master/Data-table-pagination) | [Live Demo](https://jpranays-Data-table-pagination.netlify.app/) |
+| [React OTP Input](https://github.com/jpranays/UI-challenges/tree/master/react-otp-input) | [Live Demo](https://jpranays-react-otp-input.netlify.app/) |
+| [React Nested Comments](https://github.com/jpranays/UI-challenges/tree/master/react-nested-comments) | [Live Demo](https://jpranays-react-nested-comments.netlify.app/) |
 
