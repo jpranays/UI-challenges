@@ -37,4 +37,5 @@
 | [React OTP Input](https://github.com/jpranays/UI-challenges/tree/master/react-otp-input) | [Live Demo](https://jpranays-react-otp-input.netlify.app/) |
 | [React Nested Comments](https://github.com/jpranays/UI-challenges/tree/master/react-nested-comments) | [Live Demo](https://jpranays-react-nested-comments.netlify.app/) |
 | [React Timer](https://github.com/jpranays/UI-challenges/tree/master/react-timer) | [Live Demo](https://jpranays-react-timer.netlify.app/) |
+| [React Loop Slider](https://github.com/jpranays/UI-challenges/tree/master/react-loop-slider) | [Live Demo](https://jpranays-react-loop-slider.netlify.app/) |
 
