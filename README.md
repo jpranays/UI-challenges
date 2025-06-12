@@ -38,4 +38,4 @@
 | [React Nested Comments](https://github.com/jpranays/UI-challenges/tree/master/react-nested-comments)             | [Live Demo](https://jpranays-react-nested-comments.netlify.app/)     |
 | [React Timer](https://github.com/jpranays/UI-challenges/tree/master/react-timer)                                 | [Live Demo](https://jpranays-react-timer.netlify.app/)               |
 | [React Loop Slider](https://github.com/jpranays/UI-challenges/tree/master/react-loop-slider)                     | [Live Demo](https://jpranays-react-loop-slider.netlify.app/)         |
-| [React Star Rating](https://github.com/jpranays/UI-challenges/tree/master/react-star-rating)                     | [Live Demo](https://jpranays-react-star-rating.netlify.app/)         |
+| [React Star Rating](https://github.com/jpranays/UI-challenges/tree/master/react-star-component)                     | [Live Demo](https://jpranays-react-star-rating.netlify.app/)         |
