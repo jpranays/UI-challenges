@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html,
+body,
+#root,
+.App {
+	height: 100%;
+}
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: #f0f0f0;
+  	/* gap: 20px; */
+}
+.star-container {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  position: relative;
+  z-index: 100;
+}
