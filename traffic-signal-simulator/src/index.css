@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 .App {
   display: flex;
