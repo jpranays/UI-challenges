@@ -11,7 +11,7 @@
 | 9   | [Toast-notification](https://github.com/jpranays/UI-challenges/tree/master/toast-notification)                 | [Live Demo](https://jpranays-toast-notification.netlify.app/)        |
 | 10  | [CSS Image Grid](https://github.com/jpranays/UI-challenges/tree/master/css-image-grid)                         | [Live Demo](https://jpranays-css-image-grid.netlify.app/)            |
 | 11  | [CSS Selector](https://github.com/jpranays/UI-challenges/tree/master/css-selector)                             | [Live Demo](https://jpranays-css-selector.netlify.app/)              |
-| 12  | [Popup Modal](https://github.com/jpranays/UI-challenges/tree/master/popup%20modal%20box)                       | [Live Demo](https://jpranays-popup-modal.netlify.app/)               |
+| 12  | [Popup Modal](https://github.com/jpranays/UI-challenges/tree/master/popup-modal-box)                       | [Live Demo](https://jpranays-popup-modal.netlify.app/)               |
 | 13  | [Messagging Wireframe](https://github.com/jpranays/UI-challenges/tree/master/messaging-wireframe)              | [Live Demo](https://jpranays-messaging-wireframe.netlify.app/)       |
 | 14  | [Tab Intersection Observer](https://github.com/jpranays/UI-challenges/tree/master/tab-intersection-observer)   | [Live Demo](https://jpranays-tab-intersection-observer.netlify.app/) |
 | 15  | [Carousel](https://github.com/jpranays/UI-challenges/tree/master/Carousel)                                     | [Live Demo](https://jpranays-carousel.netlify.app/)                  |
