@@ -42,4 +42,4 @@
 | 40  | [React File Explorer](https://github.com/jpranays/UI-challenges/tree/master/react-file-explorer)                     | [Live Demo](https://jpranays-react-file-explorer.netlify.app/)           |
 | 41  | [React Auto Complete](https://github.com/jpranays/UI-challenges/tree/master/react-autocomplete)                      | [Live Demo](https://jpranays-react-autocomplete.netlify.app/)            |
 | 42  | [React Tree](https://github.com/jpranays/UI-challenges/tree/master/react-tree)                                       | [Live Demo](https://jpranays-react-tree.netlify.app/)                    |
-| 43  | [React Recursive File Explorer](https://github.com/jpranays/UI-challenges/tree/master/react-recursive-file-explorer) | [Live Demo](https://jpranays-react-recursive-file-explorer.netlify.app/) |
+| 43  | [React Recursive File Explorer](https://github.com/jpranays/UI-challenges/tree/master/react-recursive-file-explorer) | [Live Demo](https://jpranays-recursive-file-explorer.netlify.app/) |
