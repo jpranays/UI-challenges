@@ -1,5 +1,5 @@
-| # | Project                                                                                                      | Live Demo Link                                                       |
-|-----|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| #   | Project                                                                                                          | Live Demo Link                                                       |
+| --- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | 1   | [Typing Animation](https://github.com/jpranays/UI-challenges/tree/master/typing-animation)                       | [Live Demo](https://jpranays-typing-animation.netlify.app/)          |
 | 2   | [Cards Slider](https://github.com/jpranays/UI-challenges/tree/master/cards-slider)                               | [Live Demo](https://jpranays-cards-slider.netlify.app/)              |
 | 3   | [Button Loading Animation](https://github.com/jpranays/UI-challenges/tree/master/button-loading-animation)       | [Live Demo](https://jpranays-button-loading-animation.netlify.app/)  |
@@ -41,3 +41,4 @@
 | 39  | [React Star Rating](https://github.com/jpranays/UI-challenges/tree/master/react-star-component)                  | [Live Demo](https://jpranays-react-star-rating.netlify.app/)         |
 | 40  | [React File Explorer](https://github.com/jpranays/UI-challenges/tree/master/react-file-explorer)                 | [Live Demo](https://jpranays-react-file-explorer.netlify.app/)       |
 | 41  | [React Auto Complete](https://github.com/jpranays/UI-challenges/tree/master/react-autocomplete)                  | [Live Demo](https://jpranays-react-autocomplete.netlify.app/)        |
+| 42  | [React Tree](https://github.com/jpranays/UI-challenges/tree/master/react-tree)                                   | [Live Demo](https://jpranays-react-tree.netlify.app/)                |
