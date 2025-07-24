@@ -40,3 +40,4 @@
 | [React Loop Slider](https://github.com/jpranays/UI-challenges/tree/master/react-loop-slider)                     | [Live Demo](https://jpranays-react-loop-slider.netlify.app/)         |
 | [React Star Rating](https://github.com/jpranays/UI-challenges/tree/master/react-star-component)                  | [Live Demo](https://jpranays-react-star-rating.netlify.app/)         |
 | [React File Explorer](https://github.com/jpranays/UI-challenges/tree/master/react-file-explorer)                 | [Live Demo](https://jpranays-react-file-explorer.netlify.app/)       |
+| [React Auto Complete](https://github.com/jpranays/UI-challenges/tree/master/react-autocomplete)                 | [Live Demo](https://jpranays-react-autocomplete.netlify.app/)       |
