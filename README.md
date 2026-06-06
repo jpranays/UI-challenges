@@ -1,3 +1,5 @@
+All Challenges : [Find it here](https://jpranays-ui-challenges.netlify.app/)
+
 | #   | Project                                                                                                              | Live Demo Link                                                           |
 | --- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | 1   | [Typing Animation](https://github.com/jpranays/UI-challenges/tree/master/typing-animation)                           | [Live Demo](https://jpranays-typing-animation.netlify.app/)              |
